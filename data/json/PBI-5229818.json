@@ -1,0 +1,279 @@
+{
+  "fields": {
+    "Custom.AhaID": "SMARTC-815-11",
+    "Custom.AhaPlanningSequence": 5,
+    "Custom.DeliveryMechanism": "Both",
+    "Custom.EffortLastModified": "2025-12-01T21:38:19.86Z",
+    "Custom.IterationEndDate": "2026-01-23T00:00:00Z",
+    "Custom.IterationStartDate": "2025-12-26T00:00:00Z",
+    "Custom.Origin": "Solution Design",
+    "Custom.PlannedReleaseDate": "2026-02-19",
+    "Custom.Product": "Smart Completions",
+    "Custom.Release": "SC FU 9 (v6.0.9)",
+    "Custom.RemainingEffort": 8.0,
+    "Custom.RequiresEndUserDocumentation": "Yes",
+    "Custom.RequiresUX": "No",
+    "Custom.RollupofCompletedWork": 14.0,
+    "Custom.RollupofRemainingWork": 2.0,
+    "Custom.ScrumTeam": "Continuum Edge",
+    "Custom.StateandSubStateCode": 510,
+    "Custom.SubState": "In Development",
+    "Custom.TypeClassificationPBI": "Development Activity",
+    "Custom.WorkAllocation": "New Features",
+    "Custom.WorkDone": 0.0,
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "<div>\n<b>CoS:</b> </div><ul>\n<li><div>verify that a new SSM module layout as described above, </div> </li>\n<li><div>verify the SSM checkbox list allows users to select one or more SSM diagrams, </div> </li>\n<li><div>verify when SSMs are selected the LOAD button is enabled (should not be enabled if no SSM is selected in checkbox list) </div> </li>\n<li><div>verify the SSM module has the standard buttons, create, edit, delete, purge/restore, </div> </li>\n<li><div>verify the SSM module includes an IMPORT button and when selected provides two (2) options: SSM List, and SSM Hierarchy </div> </li>\n<li><div>verify the SSM module includes an EXPORT button and when selected provies two (2) options: SSM List, and SSM Hierarchy </div> </li>\n<li><div>verify upon LOAD button it loads the SSM hierarchy with only the record HYPERLINK (no iconology or status information </div> </li>\n</ul>",
+    "Microsoft.VSTS.Common.ActivatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk"
+        }
+      },
+      "descriptor": "aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "displayName": "SARZALEJO Williams A",
+      "id": "f50cd051-db3a-44d9-a7c4-35c85580685a",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "uniqueName": "william.sarzalejo@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/f50cd051-db3a-44d9-a7c4-35c85580685a"
+    },
+    "Microsoft.VSTS.Common.ActivatedDate": "2025-12-17T14:34:34.173Z",
+    "Microsoft.VSTS.Common.BacklogPriority": 19033.0,
+    "Microsoft.VSTS.Common.Priority": 4,
+    "Microsoft.VSTS.Common.StateChangeDate": "2025-12-17T14:34:34.173Z",
+    "Microsoft.VSTS.Common.ValueArea": "Business",
+    "Microsoft.VSTS.Scheduling.Effort": 8.0,
+    "System.AreaId": 39700,
+    "System.AreaLevel1": "PPM",
+    "System.AreaLevel2": "_Aha-HexagonALI",
+    "System.AreaLevel3": "Project Planning and Execution",
+    "System.AreaLevel4": "Smart Completions",
+    "System.AreaPath": "PPM\\_Aha-HexagonALI\\Project Planning and Execution\\Smart Completions",
+    "System.AssignedTo": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk"
+        }
+      },
+      "descriptor": "aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "displayName": "SARZALEJO Williams A",
+      "id": "f50cd051-db3a-44d9-a7c4-35c85580685a",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "uniqueName": "william.sarzalejo@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/f50cd051-db3a-44d9-a7c4-35c85580685a"
+    },
+    "System.AuthorizedAs": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew"
+        }
+      },
+      "descriptor": "aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "displayName": "svc-aliazdo",
+      "id": "d0563e5d-82ab-6bad-8d15-16297fab4ca0",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "uniqueName": "svc-aliazdo@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/d0563e5d-82ab-6bad-8d15-16297fab4ca0"
+    },
+    "System.AuthorizedDate": "2026-01-06T17:02:09.767Z",
+    "System.ChangedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew"
+        }
+      },
+      "descriptor": "aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "displayName": "svc-aliazdo",
+      "id": "d0563e5d-82ab-6bad-8d15-16297fab4ca0",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "uniqueName": "svc-aliazdo@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/d0563e5d-82ab-6bad-8d15-16297fab4ca0"
+    },
+    "System.ChangedDate": "2026-01-06T17:02:09.767Z",
+    "System.CommentCount": 3,
+    "System.CreatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.OTY4MDZlZmYtNGYxMi03YjM3LWEyYjctYzdhNTM2MTFjZGI0"
+        }
+      },
+      "descriptor": "aad.OTY4MDZlZmYtNGYxMi03YjM3LWEyYjctYzdhNTM2MTFjZGI0",
+      "displayName": "R-US-PPM JTS ALM Admin",
+      "id": "0da4fab6-defd-40d3-b32a-0579875d85b1",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.OTY4MDZlZmYtNGYxMi03YjM3LWEyYjctYzdhNTM2MTFjZGI0",
+      "uniqueName": "svc-ppmalm@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/0da4fab6-defd-40d3-b32a-0579875d85b1"
+    },
+    "System.CreatedDate": "2025-12-01T21:32:52.083Z",
+    "System.Description": "<div>\n<strong style=\"background-color:#FBB35F;\">ITEM 1: DEVELOP SSM MODULE:</strong><span style=\"background-color:#FBB35F;\"> </span>(SEE IMAGE BELOW FOR REFERENCE) </div><ul>\n<li>\n<div>\n<strong>Search Panel</strong> </div>\n<ul>\n<li><div>Search Panel (search fields of SSM, or items inside of SSM and status) </div> </li>\n<li><div>SSM Dropdown (list of SSMs listed when user presses SEARCH button). This list will be checkbox list of SSMs. </div> </li>\n<li><div>Load Button (enable once SSM record is selected) </div> </li>\n</ul>\n</li>\n<li><div>\n<strong>Primary SSM workspace</strong> (no secondary panels in part 1) </div> </li>\n<li>\n<div>\n<strong>SSM Action Buttons:</strong> </div>\n<ul>\n<li><div>Import </div> </li>\n<li><div>Export </div> </li>\n<li><div>Expand All / Collapse All (only enabled when SSM Component box is selected) </div> </li>\n</ul>\n</li>\n<li>\n<div>\n<strong> SSM Component Box should show:</strong> </div>\n<ul>\n<li><div>\n<strong><em>Record Hyperlink</em></strong> to load edit form for record (or show pop-up which will be cleaner, as long as the pop up is editable), </div> </li>\n<li><div>If possible, also include an icon based on SSM Component Item: </div> </li>\n</ul>\n</li>\n</ul><div>\n<strong style=\"background-color:#FBB35F;\">ITEM 2: SSM Search Panel Fields:</strong><span style=\"background-color:#FBB35F;\"> </span> </div><ul>\n<li><div>SSM Tag </div> </li>\n<li><div>SSM Description </div> </li>\n<li><div>SSM Type (dropdown) </div> </li>\n<li><div>SSM Active (yes/no) </div> </li>\n<li><div>SSM Workflow State (checkbox list) </div> </li>\n<li><div>SSM Responsible Company (dropdown) </div> </li>\n<li><div>SSM Responsible Workgroup (dropdown) </div> </li>\n<li><div>\n<em><strong>SSM Tag (dropdown)</strong></em> it should query list of SSMs based on other fields entered (upon selection, then load SSM OR Press LOAD button) </div> </li>\n<li><div>Date Created (from/to) </div> </li>\n<li><div>Created By (dropdown) </div> </li>\n<li><div>Date Last Modified (from/to) </div> </li>\n<li><div>Last modified by (dropdown) </div> </li>\n<li><div>________________ </div> </li>\n<li><div>Activity Category (dropdown) </div> </li>\n<li><div>Milestone Level (dropdown) </div> </li>\n<li><div>Activity Tag Summary (dropdown) - should be filtered based on other fields </div> </li>\n<li><div>Activity Planned (Start/End) </div> </li>\n<li><div>Activity Actual (Start/End) </div> </li>\n<li><div>________________ </div> </li>\n<li><div>Asset Discipline (dropdown) </div> </li>\n<li><div>Asset Type Summary (dropdown) </div> </li>\n<li><div>Asset Tag Summary (checkbox list) </div> </li>\n<li><div>Systems Checkbox list (show like we do in rights boundaries for users) </div> </li>\n<li><div>Subsystems Checkbox list (show like we do in rights boundaries for users) </div> </li>\n<li><div>Areas Checkbox list (show like we do in rights boundaries for users) </div> </li>\n<li><div>Locations Checkbox list (show like we do in rights boundaries for users) </div> </li>\n</ul><div>\n<strong style=\"background-color:#FBB35F;\">ITEM 3: DEVELOP SSM HIERARCHY IMPORT/EXPORT</strong> </div><div>See XLS file for concept.<a href=\"https://hexagonppm.aha.io/attachments/7579012854623069533/token/23e708d70bf05b574774e95ccb9be4131f333e4157db30137f4db3e94503c9dc.download?size=original\">SSM_ImportTemplate (Conceptual).xlsx</a>\n</div><div> <img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/973808b3-97ba-4884-93e6-7f03ad23e4c9?fileName=image.png\" alt=Image> </div><div>\n<strong style=\"background-color:#FBB35F;\">ITEM 4: ADD ACTION BUTTONS</strong> </div><ul>\n<li><div>Add IMPORT Button w/ 2 options: a) SSM List, SSM Hierarchy </div> </li>\n<li><div>Add EXPORT Button w/ 2 options: a) SSM List, SSM Hierarchy </div> </li>\n</ul><div><strong style=\"background-color:#ffee99;\">Note: the SSM module will not have:</strong> </div><ul>\n<li><div>secondary panels </div> </li>\n<li><div>SSM Component status or iconology </div> </li>\n<li><div>ability to edit SSM diagrams via UI </div> </li>\n<li><div>ability to show components for Parent Assets (dynamically show asset children) </div> </li>\n</ul><div>\n<img width=1544 height=871 data-original-width=1544 data-original-height=871 src=\"https://hexagonppm.aha.io/attachments/7579324793765525141/token/ce2cadff9ad669d0abb34edb34de8aa08c6ad971085a68f4a09f4bb71e2a7a61.download?size=original\"> </div><div> </div>",
+    "System.Id": 5229818,
+    "System.IterationId": 48785,
+    "System.IterationLevel1": "PPM",
+    "System.IterationLevel2": "Continuum Edge",
+    "System.IterationLevel3": "2026",
+    "System.IterationLevel4": "2026_01",
+    "System.IterationPath": "PPM\\Continuum Edge\\2026\\2026_01",
+    "System.NodeName": "Smart Completions",
+    "System.Parent": 4170055,
+    "System.PersonId": 3243614,
+    "System.Reason": "Moved out of state Ready to Develop",
+    "System.Rev": 65,
+    "System.RevisedDate": "9999-01-01T00:00:00Z",
+    "System.State": "In Development",
+    "System.Tags": "Critical for U9",
+    "System.TeamProject": "PPM",
+    "System.Title": "SSM (UX-I1) - Item 3c: Develop SSM Module & SSM Hierarchy Import/Export w/ Simple Visualization (No Editing via UI)",
+    "System.Watermark": 42446358,
+    "System.WorkItemType": "Product Backlog Item",
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_Kanban.Column.Done": false,
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_System.ExtensionMarker": true,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_System.ExtensionMarker": true
+  },
+  "id": 5229818,
+  "multilineFieldsFormat": {
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "html",
+    "System.Description": "html"
+  },
+  "relations": [
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239841"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239851"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239846"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239849"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239843"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239844"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239845"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239840"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239848"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239838"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239850"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239847"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Parent"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/4170055"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239837"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239839"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5239842"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-01T21:32:52.083Z",
+        "comment": "Aha!",
+        "id": 2046559,
+        "resourceCreatedDate": "2025-12-01T21:32:52.083Z",
+        "resourceModifiedDate": "2025-12-01T21:32:52.083Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "Hyperlink",
+      "url": "https://hexagonppm.aha.io/requirements/SMARTC-815-11"
+    }
+  ],
+  "rev": 65,
+  "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5229818"
+}

@@ -1,0 +1,40 @@
+Work Item Type,Title,Test Step,Step Action,Step Expected,COS Reference
+Test Case,FUNC-01: Full Testing in Merge Branch,,,,COS 1
+, ,1,Perform full testing of all predecessor PBIs in the Merge branch,All test cases pass without errors,
+, ,2,Verify that all predecessor PBIs are fully functional in the Merge branch,All predecessor PBIs are fully functional,
+Test Case,FUNC-02: Backward Compatibility Testing,,,,COS 2
+, ,1,Perform backward compatibility testing in the Merge branch,No compatibility issues found,
+, ,2,Verify that all existing functionality works as expected,All existing functionality works as expected,
+Test Case,FUNC-03: Impact Testing,,,,COS 2
+, ,1,Perform impact testing in the Merge branch,No significant impact on existing functionality,
+, ,2,Verify that all impacted areas are fully functional,All impacted areas are fully functional,
+Test Case,VAL-01: Issue Filing and Fixing,,,,COS 3
+, ,1,File an issue task on the story for any issues found during testing,Issue task is created and assigned to development,
+, ,2,Verify that the issue is fixed by development and verified by QA in the Merge branch,Issue is fixed and verified,
+Test Case,VAL-02: Bug Filing for Non-Critical Issues,,,,COS 4
+, ,1,File a separate bug for any non-critical issues found during testing,Bug is created and prioritized,
+, ,2,Verify that the bug is addressed in a future iteration,Bug is addressed in a future iteration,
+Test Case,FUNC-04: Merge into Master,,,,COS 5
+, ,1,Obtain CCB approval to merge changes into Master,CCB approval is obtained,
+, ,2,Merge changes into Master,Merge is successful,
+Test Case,FUNC-05: Full Testing in Master,,,,COS 5
+, ,1,Perform full testing in Master,All test cases pass without errors,
+, ,2,Verify that all predecessor PBIs are fully functional in Master,All predecessor PBIs are fully functional,
+Test Case,VAL-03: Update of Build Number,,,,COS 6
+, ,1,Update the build number for all predecessor items,Build number is updated,
+, ,2,Verify that the build number is correct,Build number is correct,
+Test Case,VAL-04: Update of UAT Test Cases,,,,COS 7
+, ,1,Update all existing UAT test cases based on changes to Project Activities,UAT test cases are updated,
+, ,2,Verify that the UAT test cases are correct and complete,UAT test cases are correct and complete,
+Test Case,VAL-05: SSM Test Case Cleanup,,,,COS 8
+, ,1,Run all existing SSM test cases,SSM test cases are run,
+, ,2,Clean up any SSM test cases that have changed since original implementation,SSM test cases are cleaned up,
+Test Case,NEG-01: Merge Failure,,,,COS 5
+, ,1,Simulate a merge failure,Merge failure is detected and reported,
+, ,2,Verify that the merge failure is handled correctly,Merge failure is handled correctly,
+Test Case,REG-01: Existing Functionality Regression,,,,COS 9
+, ,1,Verify that all existing functionality works as expected,All existing functionality works as expected,
+, ,2,Perform regression testing to ensure that no existing functionality is broken,Regression testing passes without errors,
+Test Case,REG-02: Documentation Updates,,,,COS 10
+, ,1,Verify that all documentation is updated to reflect changes,Documentation is updated,
+, ,2,Perform review of documentation to ensure accuracy and completeness,Documentation is accurate and complete

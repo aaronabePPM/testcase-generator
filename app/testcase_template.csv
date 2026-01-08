@@ -1,0 +1,83 @@
+Work Item Type,Title,Test Step,Step Action,Step Expected,COS Reference/Expected Results
+Test Case,FUNC-01: Create Step Notice - Basic,,,, 
+, ,1,Open ITP Step create UI,Step Notice saved; UI shows confirmation; recipient record appears in recipients list for the step; notification scheduled for specified 'When',
+, ,2,Fill 'What' with Site maintenance,,
+, ,3,Fill 'Where' with Plant A / Line 2,,
+, ,4,"Fill 'When' with a future date/time (e.g., 7 days from now)",,
+, ,5,Add recipient(s) (single user),,
+, ,6,Submit/Create,,
+Test Case,FUNC-02: Notify Recipient on Create (Email),,, , 
+,,1,Create Step Notice as in FUNC-01,,
+,,2,Wait until 'When' time passes (use near-future time for test),"Recipient receives notification with content containing 'What', 'Where' and 'When' and link back to ITP step"
+,,3,Check recipient inbox/logs,
+Test Case,FUNC-03: Multiple Recipients,,, 
+,,1,Create Step Notice and add 3 recipients (mix of users and groups if supported),All intended recipients receive the notification; group expansion works for group recipients
+,,2,Submit and wait for send time,
+,,3,Verify each recipient received notification,
+Test Case,FUNC-04: Notification Contains Correct Link and Context,,, 
+,,1,Open received notification,
+,,2,Click the link to the ITP step (if clickable),Link navigates to the ITP step view and page shows the same What/Where/When and metadata
+,,3,Verify landing page and context,
+Test Case,VAL-01: 'What' Field Required Validation,,, 
+,,1,Open create UI,
+,,2,Leave 'What' empty,UI rejects submission and highlights 'What' with an error message 'What is required'
+,,3,Fill other required fields,
+,,4,Attempt to submit,
+Test Case,VAL-02: 'Where' Field Validation (max length),,, 
+,,1,Enter 'Where' with max allowed characters and one more,UI enforces max length or shows error; extra characters truncated or prevented
+,,2,Attempt to submit,
+Test Case,VAL-03: 'When' Date/Time Validation (Past Date),,, 
+,,1,Enter 'When' with a past datetime,UI rejects with message 'When must be a future date/time' or allows creation but flags immediately dispatched depending on spec
+,,2,Attempt to submit,
+Test Case,VAL-04: Recipient Email Format Validation,,, 
+,,1,"Enter invalid email(s) in recipients field (e.g., 'not-an-email')",UI shows validation error and prevents submission
+,,2,Attempt to submit,
+Test Case,UI-01: Create UI Layout and Labels,,, 
+,,1,Open create UI,Field labels match design; help text present; logical tab order; accessible labels for screen readers
+,,2,"Inspect labels, help text and field order",
+,,3,Verify keyboard navigation and tab order,
+Test Case,UI-02: Date Picker and Time Picker Behavior,,, 
+,,1,Open date/time picker,"Picker accepts input, dialog closes correctly, locale formats parsed, UI displays chosen datetime"
+,,2,Select date and time via mouse and keyboard,
+,,3,Try locale-specific formats,
+,,4,Check preview of 'When' value,
+Test Case,UI-03: Preview/Confirmation Screen,,, 
+,,1,Fill the form,Preview shows final notification text exactly including What/Where/When and recipients
+,,2,Click 'Preview' (if available),
+,,3,Verify preview content mirrors final notification content,
+Test Case,NEG-01: Submit With No Recipients,,, 
+,,1,Fill What/Where/When but leave recipients empty,Either UI prevents submission (if recipients required) or creates step but logs warning and no notifications sent
+,,2,Submit,
+Test Case,NEG-02: Service Unavailable During Send (Transient),,, 
+,,1,Create step notice scheduled in near future,
+,,2,Simulate notification service down at send time,System retries per policy; notification queued and later delivered or logged as failed with admin alert
+,,3,Observe retry/queue behavior and system user-facing messages,
+Test Case,NEG-03: Permission Denied on Create,,, 
+,,1,Attempt to open create UI or POST create API,UI/API denies access with 403 and shows 'You do not have permission'
+,,2,Submit form,
+Test Case,REG-01: Existing Step Creation Flow Not Broken (Regression),,, 
+,,1,Create a standard step (no notice) via the existing create flow,Existing flows behave exactly as before; no regressions introduced by the notice feature
+,,2,"Verify step creation, list display and existing notifications unaffected",
+Test Case,REG-02: Edit/Update Step Does Not Duplicate Notifications,,, 
+,,1,Create step notice scheduled in near future,No duplicate notifications created on unrelated edits
+,,2,Edit step metadata unrelated to notice,
+,,3,Verify no duplicate notification scheduled unless notice edited,
+Test Case,FUNC-05: Edit Notice Updates Scheduled Notification,,, 
+,,1,Create step notice for near-future,Scheduled notification updated to new datetime/content; original schedule cancelled or updated
+,,2,"Before send time, edit 'When' or 'What'",
+,,3,Save and wait until new send time,
+,,4,Verify notification content/time reflects edits,
+Test Case,SEC-01: Sanitize Notification Content (XSS),,, 
+,,1,Enter HTML/script tags into What/Where,Notification and UI escape or sanitize content; no script execution in browser or mail client preview
+,,2,Submit and inspect received notification and step view in browser,
+Test Case,PERF-01: High Volume Notifications (Scale),,, 
+,,1,Create 100 notices scheduled at same time (or simulate bulk),System processes notifications within acceptable SLA; no dropped messages
+,,2,"Observe queue length, send times and system resource usage",
+Test Case,A11Y-01: Accessibility: Screen Reader and Focus,,, 
+,,1,Navigate create UI with screen reader,"All fields labeled, aria attributes present; keyboard access works"
+,,2,Confirm each form field has accessible label and ARIA attributes,
+,,3,Verify focus order and keyboard-only operation,
+Test Case,DATA-01: Attachments in Notice Content (If Supported),,, 
+,,1,Add attachment to notice,Attachment accessible to recipients via link or included inline; size limits enforced
+,,2,Create and wait for notification,
+,,3,Verify attachment is linked or included per spec,

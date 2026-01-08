@@ -1,0 +1,67 @@
+Work Item Type,Title,Test Step,Step Action,Step Expected,COS Reference
+Test Case,FUNC-01: SSM List Import,, , ,Verify SSM list import exists
+, ,1,Open SSM List import UI,UI shows import options, 
+, ,2,Select SSM Type,SSM Name/Tag auto-populates based on SSM Type
+, ,3,Choose Auto or Manual SSM Tag,SSM Tag field reflects choice
+, ,4,Enter Description,Description field accepts input
+, ,5,Select Active status,Active status toggles correctly
+, ,6,Choose Milestone,Milestone field accepts input
+, ,7,Enter Responsible Company,Company field accepts input
+, ,8,Enter Responsible Workgroup,Workgroup field accepts input
+, ,9,Map custom fields,Custom fields mapping works correctly
+, ,10,Add Comment,Comment field accepts input
+, ,11,Choose Workflow State,Workflow State field reflects choice
+, ,12,Assign SSM Dependencies,SSM Dependencies field accepts input
+
+Test Case,FUNC-02: SSM List Export,, , ,Verify SSM list export has required fields
+, ,1,Open SSM List export UI,UI shows export options
+, ,2,Verify Auto (Yes/No) field,Field is present and populated
+, ,3,Verify SSM Tag field,Field is present and populated
+, ,4,Verify Description field,Field is present and populated
+, ,5,Verify Type field,Field is present and populated
+, ,6,Verify Active (Yes/No) field,Field is present and populated
+, ,7,Verify SSM Milestone field,Field is present and populated
+, ,8,Verify SSM Responsible Company field,Field is present and populated
+, ,9,Verify SSM Responsible Workgroup field,Field is present and populated
+, ,10,Verify custom fields,Custom fields are present and populated
+, ,11,Verify Comment field,Field is present and populated
+, ,12,Verify Workflow State field,Field is present and populated
+, ,13,Verify Revision field,Field is present and populated
+, ,14,Verify Last Modified By field,Field is present and populated
+, ,15,Verify Last Modified Date field,Field is present and populated
+
+Test Case,VAL-01: SSM List Import Validation,, , ,Verify SSM list import validation
+, ,1,Leave required field empty,UI shows error message
+, ,2,Enter invalid data in field,UI shows error message
+, ,3,Choose invalid SSM Type,UI shows error message
+
+Test Case,VAL-02: SSM List Export Validation,, , ,Verify SSM list export validation
+, ,1,Leave required field empty,UI shows error message
+, ,2,Enter invalid data in field,UI shows error message
+, ,3,Choose invalid SSM Type,UI shows error message
+
+Test Case,UI-01: SSM List Import UI,, , ,Verify SSM list import UI layout
+, ,1,Open SSM List import UI,UI layout is correct
+, ,2,Verify field labels,Field labels are correct
+, ,3,Verify help text,Help text is present and correct
+
+Test Case,UI-02: SSM List Export UI,, , ,Verify SSM list export UI layout
+, ,1,Open SSM List export UI,UI layout is correct
+, ,2,Verify field labels,Field labels are correct
+, ,3,Verify help text,Help text is present and correct
+
+Test Case,NEG-01: SSM List Import Failure,, , ,Verify SSM list import failure handling
+, ,1,Simulate import failure,UI shows error message
+, ,2,Verify error logging,Error is logged correctly
+
+Test Case,NEG-02: SSM List Export Failure,, , ,Verify SSM list export failure handling
+, ,1,Simulate export failure,UI shows error message
+, ,2,Verify error logging,Error is logged correctly
+
+Test Case,REG-01: SSM List Import Regression,, , ,Verify SSM list import regression
+, ,1,Perform SSM list import,Import works correctly
+, ,2,Verify import data,Import data is correct
+
+Test Case,REG-02: SSM List Export Regression,, , ,Verify SSM list export regression
+, ,1,Perform SSM list export,Export works correctly
+, ,2,Verify export data,Export data is correct

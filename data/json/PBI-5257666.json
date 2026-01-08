@@ -1,0 +1,158 @@
+{
+  "fields": {
+    "Custom.AccountCloudTypes": "Cloud",
+    "Custom.AccountTotal": 1,
+    "Custom.CCB": "Approved",
+    "Custom.CaseAccounts": "Saipem Spa Qatar Branch",
+    "Custom.CaseDetailLinks": "<div><a href=\"https://hextools.hexagonali.com/SalesforceCases?casenumbers=00691831\" target=_blank>https://hextools.hexagonali.com/SalesforceCases?casenumbers=00691831</a> </div>",
+    "Custom.CaseNumbers": "00691831",
+    "Custom.CaseTotal": 1,
+    "Custom.DefectAgainstNewFeature": "No",
+    "Custom.DeveloperNotes": "Analysis (RCA), Solution, Testing, Risk and Impact",
+    "Custom.ExecCCB": "Approved",
+    "Custom.ExpectedResults": "<div>Completed tasks that are marked as exceptions should be displayed in the Task Exceptions section of the Dependencies tab during Certificate Completion, and should be counted correctly. </div>",
+    "Custom.FiledVersion": "06.00.08.0000",
+    "Custom.Impact": "<div>As per configuration in Cert Type, incorrect Exception count appears in Dependencies tab while Cert completion.&nbsp; </div>",
+    "Custom.IterationEndDate": "2026-02-20T00:00:00Z",
+    "Custom.IterationStartDate": "2026-01-23T00:00:00Z",
+    "Custom.OnBehalfOf": "Saipem Spa Qatar Branch",
+    "Custom.Origin": "Customer",
+    "Custom.Product": "Smart Completions",
+    "Custom.ReasonforTestingLevel": "None",
+    "Custom.Regression": "No",
+    "Custom.RequiresEndUserDocumentation": "Not Evaluated",
+    "Custom.ScrumTeam": "KRYPTON",
+    "Custom.StateandSubStateCode": 110,
+    "Custom.StepstoReproduce": "<div>1) Select below in Cert type </div><div><img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/d15c2296-4408-4d91-ae38-8c4172a15aeb?fileName=image.png\" alt=Image><br> </div><div><br> </div><div>2) Mark 'Completed' Task that matches Cert assignment as Exception. </div><div>3) Proceed for Certificate completion&nbsp; </div><div><img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/504fe24d-514d-4925-ac8a-b91434e4e997?fileName=image.png\" alt=Image><br> </div><div><br> </div><div> </div><div>4) Observe that the previously marked exception does not appear in the Dependencies  Task Exceptions section. </div><div><br> </div><div> </div>",
+    "Custom.SubState": "New",
+    "Custom.SubStateChangedDate": "2025-12-23T13:40:19.627Z",
+    "Custom.TestingLevel": "None",
+    "Custom.TypeClassificationBug": "Defect",
+    "Custom.WorkAllocation": "Technical Debt",
+    "Custom.Workaround": "<div>Mark the completed task as exception again and proceed to Close the Certificate. Please refer to screenshots in Steps to Reproduce tab&nbsp; </div>",
+    "Microsoft.VSTS.Common.Severity": "3 - Medium",
+    "Microsoft.VSTS.Common.StateChangeDate": "2025-12-23T13:57:38.387Z",
+    "Microsoft.VSTS.Common.ValueArea": "Business",
+    "Microsoft.VSTS.Scheduling.Effort": 3.0,
+    "System.AreaId": 45942,
+    "System.AreaLevel1": "PPM",
+    "System.AreaLevel2": "_Aha-HexagonALI",
+    "System.AreaLevel3": "Project Planning and Execution",
+    "System.AreaLevel4": "Smart Completions",
+    "System.AreaLevel5": "SaaS",
+    "System.AreaLevel6": "Certificates",
+    "System.AreaPath": "PPM\\_Aha-HexagonALI\\Project Planning and Execution\\Smart Completions\\SaaS\\Certificates",
+    "System.AssignedTo": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.NDEzZDkxNjUtODU0NS03MjUzLWI1YTAtYWU2NGUwNzVkNjkz"
+        }
+      },
+      "descriptor": "aad.NDEzZDkxNjUtODU0NS03MjUzLWI1YTAtYWU2NGUwNzVkNjkz",
+      "displayName": "PONDUGULA Swamy R",
+      "id": "2d14313c-a43a-4232-8b2f-2bc9a2cbad03",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.NDEzZDkxNjUtODU0NS03MjUzLWI1YTAtYWU2NGUwNzVkNjkz",
+      "uniqueName": "swamy.pondugula@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/2d14313c-a43a-4232-8b2f-2bc9a2cbad03"
+    },
+    "System.AuthorizedAs": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew"
+        }
+      },
+      "descriptor": "aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "displayName": "svc-aliazdo",
+      "id": "d0563e5d-82ab-6bad-8d15-16297fab4ca0",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "uniqueName": "svc-aliazdo@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/d0563e5d-82ab-6bad-8d15-16297fab4ca0"
+    },
+    "System.AuthorizedDate": "2026-01-07T23:53:40.447Z",
+    "System.BoardColumn": "New",
+    "System.BoardColumnDone": false,
+    "System.ChangedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew"
+        }
+      },
+      "descriptor": "aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "displayName": "svc-aliazdo",
+      "id": "d0563e5d-82ab-6bad-8d15-16297fab4ca0",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "uniqueName": "svc-aliazdo@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/d0563e5d-82ab-6bad-8d15-16297fab4ca0"
+    },
+    "System.ChangedDate": "2026-01-07T23:53:40.447Z",
+    "System.CommentCount": 2,
+    "System.CreatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.MmFjMzdkNmEtMGQ2MC03YTFjLWE1YTktYzZmMzAwMGNhYmQy"
+        }
+      },
+      "descriptor": "aad.MmFjMzdkNmEtMGQ2MC03YTFjLWE1YTktYzZmMzAwMGNhYmQy",
+      "displayName": "SARDA Sanket B",
+      "id": "404a6967-f5c4-4e86-8270-3817dff8beb4",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.MmFjMzdkNmEtMGQ2MC03YTFjLWE1YTktYzZmMzAwMGNhYmQy",
+      "uniqueName": "sanket.sarda@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/404a6967-f5c4-4e86-8270-3817dff8beb4"
+    },
+    "System.CreatedDate": "2025-12-23T13:57:38.387Z",
+    "System.Description": "<div>When completed task is marked as an Exception for a Certificate, it does not appear in the Task Exceptions list under the Certificate Dependencies tab during certificate completion.<br> </div><div>\nAs a result, the exception count shown in the Dependencies tab is incorrect, even though the task was already marked as an exception.<br> </div><div> </div>",
+    "System.Id": 5257666,
+    "System.IterationId": 45655,
+    "System.IterationLevel1": "PPM",
+    "System.IterationLevel2": "KRYPTON",
+    "System.IterationLevel3": "2026",
+    "System.IterationLevel4": "2026_02",
+    "System.IterationPath": "PPM\\KRYPTON\\2026\\2026_02",
+    "System.NodeName": "Certificates",
+    "System.PersonId": 3243614,
+    "System.Reason": "New defect reported",
+    "System.Rev": 15,
+    "System.RevisedDate": "9999-01-01T00:00:00Z",
+    "System.State": "New",
+    "System.Tags": "Critical for U10",
+    "System.TeamProject": "PPM",
+    "System.Title": "Completed tasks marked as exceptions do not appear in Certificate Dependencies",
+    "System.Watermark": 42475921,
+    "System.WorkItemType": "Bug",
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_Kanban.Column": "New",
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_Kanban.Column.Done": false,
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_System.ExtensionMarker": true,
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_Kanban.Column": "New",
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_Kanban.Column.Done": false,
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_System.ExtensionMarker": true,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_Kanban.Column": "New",
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_Kanban.Column.Done": false,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_System.ExtensionMarker": false
+  },
+  "id": 5257666,
+  "multilineFieldsFormat": {
+    "Custom.CaseDetailLinks": "html",
+    "Custom.DeveloperNotes": "html",
+    "Custom.ExpectedResults": "html",
+    "Custom.Impact": "html",
+    "Custom.StepstoReproduce": "html",
+    "Custom.Workaround": "html",
+    "System.Description": "html"
+  },
+  "relations": [
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-23T13:57:52.323Z",
+        "comment": "Case: 00691831",
+        "id": 2070858,
+        "resourceCreatedDate": "2025-12-23T13:57:52.323Z",
+        "resourceModifiedDate": "2025-12-23T13:57:52.323Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "Hyperlink",
+      "url": "https://intergraph-ppm.my.salesforce.com/500Pm00001FEErZIAX"
+    }
+  ],
+  "rev": 15,
+  "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5257666"
+}

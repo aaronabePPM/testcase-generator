@@ -1,0 +1,50 @@
+Work Item Type,Title,Test Step,Step Action,Step Expected,COS Reference
+Test Case,FUNC-01: Verify PA Import supports new fields,,,,COS 1
+, ,1,Open PA import UI,PA import UI opens successfully,
+, ,2,Upload a CSV file with new fields (Suggested Date; Parent Activity Tag; Systems/subsystems; Areas/Locations; Assets),File uploads successfully and fields are recognized,
+, ,3,Map CSV columns to respective fields in the import tool,Mapping is successful and fields are displayed correctly,
+, ,4,Submit the import,Import completes successfully and confirms the number of records imported,
+, ,5,Verify the imported records in the system,Records contain correct data for all new fields (Suggested Date; Parent Activity Tag; Systems/subsystems; Areas/Locations; Assets),
+
+Test Case,FUNC-02: Verify PA Export includes new fields,,,,COS 1
+, ,1,Open PA export UI,PA export UI opens successfully,
+, ,2,Select the export template that includes the new fields,Template is successfully selected,
+, ,3,Export the data in the updated format,Export completes successfully,
+, ,4,Verify the exported file includes new fields (Suggested Date; Suggested Date By; Suggested Date Entry; Parent Activity Tag; Systems/subsystems; Areas/Locations; Assets),Exported file contains all expected fields in correct format,
+
+Test Case,FUNC-03: Verify PA edit form shows imported associations,,,,COS 2
+, ,1,Import a PA record with systems/subsystems; areas/locations; assets,Import completes successfully,
+, ,2,Open the imported PA record in edit form,Edit form opens successfully,
+, ,3,Verify the parent plant and process areas are displayed based on the imported associations,Edit form displays correct parent plant and process areas,
+
+Test Case,VAL-01: Validate PA import with missing required fields,,,,COS 1
+, ,1,Upload a CSV file with missing mandatory fields (e.g., Suggested Date),Import fails with validation error highlighting missing fields,
+, ,2,Correct the file by adding the missing fields and re-upload,Import completes successfully,
+
+Test Case,VAL-02: Validate PA import with invalid field values,,,,COS 1
+, ,1,Upload a CSV file with invalid data types (e.g., text in date fields),Import fails with validation error specifying the invalid fields,
+, ,2,Correct the invalid data and re-upload,Import completes successfully,
+
+Test Case,UI-01: Verify PA import UI layout and labels,,,,COS 1
+, ,1,Open PA import UI,All fields and labels match the design specifications; help text is present,
+, ,2,Verify logical tab order and accessibility of the UI,All fields are accessible via keyboard and screen readers,
+
+Test Case,UI-02: Verify PA export UI layout and labels,,,,COS 1
+, ,1,Open PA export UI,All fields and labels match the design specifications; help text is present,
+, ,2,Verify logical tab order and accessibility of the UI,All fields are accessible via keyboard and screen readers,
+
+Test Case,NEG-01: Verify PA import with incorrect file format,,,,COS 1
+, ,1,Attempt to upload a non-CSV file (e.g., .txt or .xlsx),System rejects the file and displays an appropriate error message,
+, ,2,Attempt to upload a CSV file with incorrect column headers,System rejects the file and displays an appropriate error message,
+
+Test Case,NEG-02: Verify PA import with duplicate records,,,,COS 1
+, ,1,Upload a CSV file containing duplicate records,System identifies and rejects duplicate records with an appropriate error message,
+, ,2,Verify non-duplicate records are imported successfully,Non-duplicate records are imported and displayed correctly,
+
+Test Case,REG-01: Verify existing PA import functionality is not broken,,,,COS 1
+, ,1,Upload a valid CSV file with only existing fields (without new fields),Import completes successfully,
+, ,2,Verify the imported records in the system,Records contain correct data for all existing fields,
+
+Test Case,REG-02: Verify existing PA export functionality is not broken,,,,COS 1
+, ,1,Export data using an existing export template (without new fields),Export completes successfully,
+, ,2,Verify the exported file includes only existing fields,Exported file contains correct data for all existing fields,

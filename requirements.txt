@@ -1,0 +1,15 @@
+# Test Case Generator Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (tkinter comes with Python standard library)
+# No additional packages required for basic functionality
+
+# For AI-powered test case generation
+openai>=1.0.0
+
+# For building standalone executable
+pyinstaller>=6.0.0
+
+# Optional: For enhanced features in future versions
+# requests>=2.31.0
+# python-dotenv>=1.0.0

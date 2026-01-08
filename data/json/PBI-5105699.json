@@ -1,0 +1,659 @@
+{
+  "fields": {
+    "Custom.AhaID": "SMARTC-837-3",
+    "Custom.AhaPlanningSequence": 2,
+    "Custom.DeliveryMechanism": "Both",
+    "Custom.DeveloperNotes": "<div><div style=\"box-sizing:border-box;margin:0px;font-size:15px;\"><span style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Analysis</b>:<br style=\"box-sizing:border-box;\"></span> </div><div style=\"box-sizing:border-box;margin:0px;font-size:15px;\"><div style=\"box-sizing:border-box;\">New manager<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Solution</b>:<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">1) Added SSM manager, editing, workflow, searching, preview panel, purge/restore, import and export. </div><div style=\"box-sizing:border-box;\"><div style=\"box-sizing:border-box;\">2) Added SSM Status manager, editing, searching, preview panel, purge/restore. </div><div style=\"box-sizing:border-box;\">3) Added '<span style=\"box-sizing:border-box;font-family:Menlo, Consolas, &quot;Courier New&quot;, monospace;font-size:12px;background-color:rgba(51, 153, 51, 0.1);display:inline !important;\">UseWorkflow</span>' tp ITP, Work Lot, Punc, SSM &amp; Work Packs to show WF option on exports. </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div> </div><div style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Testing Actually Done:</b><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Tested fully both managers, </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Risk/Impact (Mention Testing Impact Areas if any)</b>:<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">None.<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Recommended Testing for Certification</b>:<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Test both managers fully. </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Site URL:</b><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><a href=\"https://sc-features.intergraph.com/PBI-5105699\" style=\"box-sizing:border-box;color:rgb(0, 90, 158);outline:transparent;\">https://sc-features.intergraph.com/PBI-5105699</a><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">User Story Acceptance Checklist:</b><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact to performance? No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact to backward compatibility? No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact on other supported platforms? No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact to upgrade situations(including schema or model changes)? No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact to non - English environments? &nbsp;No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact to error cases / what if situations / negative tests? &nbsp; No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact to documentation? &nbsp;No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact to existing regression scripts? &nbsp; No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Any impact to other areas of the product or downstream products? &nbsp; No<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Has this been covered by ATPs now? Yes<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Has Root Cause Analysis been done? N/A<br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">ATPs</b>: </div><div style=\"box-sizing:border-box;\"><div style=\"box-sizing:border-box;background-color:rgb(255, 255, 254);font-family:Consolas, &quot;Courier New&quot;, monospace;font-weight:normal;font-size:12px;\"><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;color:rgb(163, 21, 21);\">&quot;WS:&nbsp;importData&nbsp;-&nbsp;Basic&nbsp;test&quot;</span> </div> </div><div style=\"box-sizing:border-box;background-color:rgb(255, 255, 254);font-family:Consolas, &quot;Courier New&quot;, monospace;font-weight:normal;font-size:12px;\"><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;color:rgb(163, 21, 21);\">WS:&nbsp;importData&nbsp;-&nbsp;Import&nbsp;of&nbsp;Records</span> </div> </div><div style=\"box-sizing:border-box;background-color:rgb(255, 255, 254);font-family:Consolas, &quot;Courier New&quot;, monospace;font-weight:normal;font-size:12px;\"><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;color:rgb(163, 21, 21);\">WS:&nbsp;exportData&nbsp;-&nbsp;Export&nbsp;of&nbsp;Records</span> </div> </div> </div> </div><br> </div>",
+    "Custom.EffortLastModified": "2025-12-04T20:43:16.527Z",
+    "Custom.ImplementedDate": "2025-12-22T22:44:55.64Z",
+    "Custom.ImplementedVersion": "06.00.09.0000",
+    "Custom.IterationEndDate": "2026-01-23T00:00:00Z",
+    "Custom.IterationStartDate": "2025-12-26T00:00:00Z",
+    "Custom.Origin": "Solution Design",
+    "Custom.PlannedReleaseDate": "2026-02-19",
+    "Custom.Product": "Smart Completions",
+    "Custom.Release": "SC FU 9 (v6.0.9)",
+    "Custom.RemainingEffort": 5.0,
+    "Custom.RequiresEndUserDocumentation": "Yes",
+    "Custom.RequiresUX": "No",
+    "Custom.RollupofCompletedWork": 10.0,
+    "Custom.RollupofRemainingWork": 17.0,
+    "Custom.ScrumTeam": "Continuum Edge",
+    "Custom.StateandSubStateCode": 570,
+    "Custom.SubState": "Ready for Testing - Code Changes",
+    "Custom.TypeClassificationPBI": "Development Activity",
+    "Custom.WorkAllocation": "New Features",
+    "Custom.WorkDone": 0.0,
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "<div>CoS: </div><div><ul><li>verify that a new import exists for importing SSM diagrams via a SSM List import, </li><li>verify that the SSM List import has all the fields defined in the description and follows standard import process, as well as pre-import analysis, </li><li>verify that the SSM list EXPORT has the fields defined in the description listed above, </li><li>verify that the import and export fields aligned (as best they can), as clients are likely to create a single SSM diagram, then export all fields so they can then populate the list with more SSM diagrams and import a larger SSM list </li> </ul> </div>",
+    "Microsoft.VSTS.Common.ActivatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk"
+        }
+      },
+      "descriptor": "aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "displayName": "SARZALEJO Williams A",
+      "id": "f50cd051-db3a-44d9-a7c4-35c85580685a",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "uniqueName": "william.sarzalejo@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/f50cd051-db3a-44d9-a7c4-35c85580685a"
+    },
+    "Microsoft.VSTS.Common.ActivatedDate": "2025-12-10T21:37:46.47Z",
+    "Microsoft.VSTS.Common.BacklogPriority": 493.0,
+    "Microsoft.VSTS.Common.Priority": 4,
+    "Microsoft.VSTS.Common.StateChangeDate": "2025-12-10T21:37:46.47Z",
+    "Microsoft.VSTS.Common.ValueArea": "Business",
+    "Microsoft.VSTS.Scheduling.Effort": 5.0,
+    "System.AreaId": 39700,
+    "System.AreaLevel1": "PPM",
+    "System.AreaLevel2": "_Aha-HexagonALI",
+    "System.AreaLevel3": "Project Planning and Execution",
+    "System.AreaLevel4": "Smart Completions",
+    "System.AreaPath": "PPM\\_Aha-HexagonALI\\Project Planning and Execution\\Smart Completions",
+    "System.AssignedTo": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk"
+        }
+      },
+      "descriptor": "aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "displayName": "SARZALEJO Williams A",
+      "id": "f50cd051-db3a-44d9-a7c4-35c85580685a",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "uniqueName": "william.sarzalejo@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/f50cd051-db3a-44d9-a7c4-35c85580685a"
+    },
+    "System.AuthorizedAs": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.OWVlOTY3NjktYjZiZi03YjJmLTgyOWMtOTRlM2FmMzMyYjQ3"
+        }
+      },
+      "descriptor": "aad.OWVlOTY3NjktYjZiZi03YjJmLTgyOWMtOTRlM2FmMzMyYjQ3",
+      "displayName": "ADCOCK Gregory Z",
+      "id": "aefc8bd1-4f49-4f0b-8638-c9c5dc17db0f",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.OWVlOTY3NjktYjZiZi03YjJmLTgyOWMtOTRlM2FmMzMyYjQ3",
+      "uniqueName": "greg.adcock@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/aefc8bd1-4f49-4f0b-8638-c9c5dc17db0f"
+    },
+    "System.AuthorizedDate": "2026-01-06T19:34:17.743Z",
+    "System.ChangedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.OWVlOTY3NjktYjZiZi03YjJmLTgyOWMtOTRlM2FmMzMyYjQ3"
+        }
+      },
+      "descriptor": "aad.OWVlOTY3NjktYjZiZi03YjJmLTgyOWMtOTRlM2FmMzMyYjQ3",
+      "displayName": "ADCOCK Gregory Z",
+      "id": "aefc8bd1-4f49-4f0b-8638-c9c5dc17db0f",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.OWVlOTY3NjktYjZiZi03YjJmLTgyOWMtOTRlM2FmMzMyYjQ3",
+      "uniqueName": "greg.adcock@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/aefc8bd1-4f49-4f0b-8638-c9c5dc17db0f"
+    },
+    "System.ChangedDate": "2026-01-06T19:34:17.743Z",
+    "System.CommentCount": 1,
+    "System.CreatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.OTY4MDZlZmYtNGYxMi03YjM3LWEyYjctYzdhNTM2MTFjZGI0"
+        }
+      },
+      "descriptor": "aad.OTY4MDZlZmYtNGYxMi03YjM3LWEyYjctYzdhNTM2MTFjZGI0",
+      "displayName": "R-US-PPM JTS ALM Admin",
+      "id": "0da4fab6-defd-40d3-b32a-0579875d85b1",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.OTY4MDZlZmYtNGYxMi03YjM3LWEyYjctYzdhNTM2MTFjZGI0",
+      "uniqueName": "svc-ppmalm@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/0da4fab6-defd-40d3-b32a-0579875d85b1"
+    },
+    "System.CreatedDate": "2025-09-02T23:21:53.937Z",
+    "System.Description": "<div>\n<strong style=\"background-color:#DFEFC5;font-size:14px;\">The intent of this PBI is to develop the Imports/Exports for SSM List</strong> </div><div>\n<strong style=\"background-color:#FBB35F;\">ITEM 1: DEVELOP SSM LIST </strong><strong style=\"background-color:#FBB35F;\"><u style=\"background-color:#FBB35F;\">IMPORT</u></strong><strong style=\"background-color:#FBB35F;\">:</strong> </div><div>When importing a SSM list, the SSM Type (based on abbreviation) should define the SSM Name/Tag, but we should also provide the auto vs. manual SSM Tag </div><ul>\n<li><div>Tab (General) - Auto (Yes/No) - if yes, then SC will create SSM Tag based on SSM Type selected, </div> </li>\n<li><div>Tab (General) - SSM Tag </div> </li>\n<li><div>Tab (General) - Description </div> </li>\n<li><div>Tab (General) - Type (Name) </div> </li>\n<li><div>Tab (General) - Active (Yes/No) - view only sees(searches) active, and editors can see all </div> </li>\n<li><div>Tab (General) - Milestone (this sets the top node - milestone must exist in order to link) </div> </li>\n<li><div>Tab (General) - Responsible Company </div> </li>\n<li><div>Tab (General) - Responsible Workgroup </div> </li>\n<li><div>Tab - Custom Fields (add 10 custom fields) </div> </li>\n<li><div>Tab - Comment </div> </li>\n<li><div>Tab - Workflow (vSSMs) - originate, submit, verify, approve </div> </li>\n<li><div>Tab - SSM Dependencies (the intent is to assign other SSMs to the SSM being edited). We will use this dependency down the road to easily navigate to other SSMs from a currently loaded SSM. </div> </li>\n</ul><div>\n<strong style=\"background-color:#FBB35F;\">ITEM 2: DEVELOP SSM LIST </strong><strong style=\"background-color:#FBB35F;\"><u style=\"background-color:#FBB35F;\">EXPORT</u></strong><strong style=\"background-color:#FBB35F;\">:</strong> </div><div>SSM Export should includ all import fields but with creation and last modified data, along with workflow and revision info. </div><ul>\n<li><div>Auto (Yes/No) </div> </li>\n<li><div>SSM Tag </div> </li>\n<li><div>Description </div> </li>\n<li><div>Type </div> </li>\n<li><div>Active (Yes/No) </div> </li>\n<li><div>SSM Milestone (this sets the top node) </div> </li>\n<li><div>SSM Responsible Company </div> </li>\n<li><div>SSM Responsible Workgroup </div> </li>\n<li><div>SSM Custom Fields Tab (add 10 custom fields) </div> </li>\n<li><div>SSM Comment </div> </li>\n<li><div>Workflow State (e.g. approved, completed) </div> </li>\n<li><div>Revision </div> </li>\n<li><div>Workflow States (who and when) </div> </li>\n<li><div>Last Modified By </div> </li>\n<li><div>Last Modified Date<br><br>\n</div> </li>\n</ul>",
+    "System.Id": 5105699,
+    "System.IterationId": 48785,
+    "System.IterationLevel1": "PPM",
+    "System.IterationLevel2": "Continuum Edge",
+    "System.IterationLevel3": "2026",
+    "System.IterationLevel4": "2026_01",
+    "System.IterationPath": "PPM\\Continuum Edge\\2026\\2026_01",
+    "System.NodeName": "Smart Completions",
+    "System.Parent": 4170055,
+    "System.PersonId": 68460,
+    "System.Reason": "Moved out of state Ready to Develop",
+    "System.Rev": 81,
+    "System.RevisedDate": "9999-01-01T00:00:00Z",
+    "System.State": "In Development",
+    "System.Tags": "Critical for U9",
+    "System.TeamProject": "PPM",
+    "System.Title": "SSM (UX-I1) - Item 3b: Develop SSM List and Import/Export",
+    "System.Watermark": 42448781,
+    "System.WorkItemType": "Product Backlog Item",
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_Kanban.Column.Done": false,
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_System.ExtensionMarker": true,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_System.ExtensionMarker": true
+  },
+  "id": 5105699,
+  "multilineFieldsFormat": {
+    "Custom.DeveloperNotes": "html",
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "html",
+    "System.Description": "html"
+  },
+  "relations": [
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267382"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231652"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267391"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267390"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267383"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228825"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5270316"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231660"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231662"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5270310"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228818"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228822"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231661"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228821"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231649"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231658"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267439"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231654"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228829"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228830"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231653"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231651"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Parent"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/4170055"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267402"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Successor"
+      },
+      "rel": "System.LinkTypes.Dependency-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5180124"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267440"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267401"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267438"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267403"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267443"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267442"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228827"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267441"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228832"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231659"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228831"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231656"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267397"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267392"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267399"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267398"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267393"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231663"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5270313"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231655"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267400"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228826"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228819"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231664"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228823"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5231657"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228828"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267387"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267386"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267389"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267388"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228820"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267385"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5267384"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228824"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-15T16:52:32.267Z",
+        "id": 2061878,
+        "name": "Pull Request",
+        "resourceCreatedDate": "2025-12-15T16:52:32.267Z",
+        "resourceModifiedDate": "2025-12-15T16:52:32.267Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "ArtifactLink",
+      "url": "vstfs:///Git/PullRequestId/ad8b5582-3a1b-45b4-b53f-df3e968b9505%2F51d26b3d-9ba3-4ea6-b995-ae590428946d%2F58799"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-15T16:51:45.567Z",
+        "id": 2061841,
+        "name": "Pull Request",
+        "resourceCreatedDate": "2025-12-15T16:51:45.567Z",
+        "resourceModifiedDate": "2025-12-15T16:51:45.567Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "ArtifactLink",
+      "url": "vstfs:///Git/PullRequestId/ad8b5582-3a1b-45b4-b53f-df3e968b9505%2F91bb98d2-76d5-4c45-a05e-76d5a35f2d02%2F58798"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-09-02T23:21:53.937Z",
+        "comment": "Aha!",
+        "id": 1948903,
+        "resourceCreatedDate": "2025-09-02T23:21:53.937Z",
+        "resourceModifiedDate": "2025-09-02T23:21:53.937Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "Hyperlink",
+      "url": "https://hexagonppm.aha.io/requirements/SMARTC-837-3"
+    }
+  ],
+  "rev": 81,
+  "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5105699"
+}

@@ -1,0 +1,285 @@
+{
+  "fields": {
+    "Custom.DefectAgainstNewFeature": "No",
+    "Custom.DeveloperNotes": "<div><span><b>Analysis</b>:<br></span> </div><div>PDF converter is positioning images on Y=0, it is better to calculate image height and positioning accordingly.<br> </div><div><br> </div><div><b>Solution</b>:<br> </div><div>Updated PDF DLL code to better positioning images. <br> </div><div><br> </div><div><b>Testing Actually Done:</b><br> </div><div>Created PL images small and normal sizes and then rendered on TOP PL: </div><div><img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/f31fecd7-932d-4173-a67c-ba08118d73ea?fileName=image.png\" alt=Image><br> </div><div>Examples: </div><div><img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/c26217c6-3c9a-463c-a78f-b362022f92c6?fileName=image.png\" alt=Image style=\"width:328px;\" width=328 height=418><img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/8d39a623-9a46-404e-94c5-98cb774545f7?fileName=image.png\" alt=Image style=\"width:293px;\" width=293 height=411><img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/305ce5ba-de37-42cc-a681-464e84d9e57c?fileName=image.png\" alt=Image><br> </div><div><br> </div><div><b>Risk/Impact (Mention Testing Impact Areas if any):</b><br> </div><div>Restricted impact to TOPs using this functionality (PL, Task, NC) images.<br> </div><div><br> </div><div><b>Recommended Testing for Certification:</b><br> </div><div><span style=\"display:inline !important;\">Test TOPs using this functionality (PL, Task, NC) images.</span><br> </div><div><br> </div><div><b>Site URL:</b><br> </div><div><a href=\"https://sc-features.intergraph.com/TR-5194599\">https://sc-features.intergraph.com/TR-5194599</a> <br> </div><div><br> </div><div><b>User Story Acceptance Checklist:</b><br> </div><div>Any impact to performance? No<br> </div><div>Any impact to backward compatibility? No<br> </div><div>Any impact on other supported platforms? No<br> </div><div>Any impact to upgrade situations(including schema or model changes)? No<br> </div><div>Any impact to non - English environments? &nbsp;No<br> </div><div>Any impact to error cases / what if situations / negative tests? &nbsp; No<br> </div><div>Any impact to documentation? &nbsp;No<br> </div><div>Any impact to existing regression scripts? &nbsp; No<br> </div><div>Any impact to other areas of the product or downstream products? &nbsp; No<br> </div><div>Has this been covered by ATPs now? Yes<br> </div><span>Has Root Cause Analysis been done? Yes</span><br><div><span><br></span> </div><div><b>ATP:</b> </div><div>ImgtoPDFwTitle_Test (Existing)<br> </div>",
+    "Custom.ExpectedResults": "<div>Images (added as attachments to tasks) that are converted and appended to PDF in task packages and TOP compilation are not aligned appropriately. They must be top center aligned with the image caption listed below the image. </div>",
+    "Custom.FiledVersion": "06.00.09.0031",
+    "Custom.Impact": "<div>low </div>",
+    "Custom.ImplementedDate": "2025-12-16T15:08:27.367Z",
+    "Custom.ImplementedVersion": "06.00.09.0000",
+    "Custom.IterationEndDate": "2026-01-23T00:00:00Z",
+    "Custom.IterationStartDate": "2025-12-26T00:00:00Z",
+    "Custom.LinktoTest": "https://dev.azure.com/hexagonPPMCOL/PPM/_testPlans/define?planId=2184912&suiteId=5265400",
+    "Custom.Origin": "QA",
+    "Custom.Product": "Smart Completions",
+    "Custom.QATestCoverage": "Added New Test Case/Steps",
+    "Custom.ReasonforTestingLevel": "None",
+    "Custom.Regression": "No",
+    "Custom.RequiresEndUserDocumentation": "No",
+    "Custom.RollupofCompletedWork": 3.0,
+    "Custom.RollupofRemainingWork": 7.0,
+    "Custom.ScrumTeam": "Continuum Edge",
+    "Custom.StateandSubStateCode": 570,
+    "Custom.StepstoReproduce": "<div>1) Login to SaaS and Go to planned tasks manager. </div><div>2) Have a planned tasks with some image files.<br>3) Click on download package.<br>4) On the pop up select planned forms/executed forms and image files.<br>5) Download the package and observe </div>",
+    "Custom.SubState": "Ready for Testing - Code Changes",
+    "Custom.SubStateChangedDate": "2025-12-16T15:08:21.287Z",
+    "Custom.TestingLevel": "None",
+    "Custom.TypeClassificationBug": "Defect",
+    "Custom.WorkAllocation": "Technical Debt",
+    "Custom.WorkDone": 0.0,
+    "Custom.Workaround": "<div>No workaround </div>",
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "<div>Images (added as attachments to tasks) that are converted and appended to PDF in task packages and TOP compilation are not aligned appropriately. They must be top center aligned with the image caption listed below the image. </div>",
+    "Microsoft.VSTS.Common.ActivatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk"
+        }
+      },
+      "descriptor": "aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "displayName": "SARZALEJO Williams A",
+      "id": "f50cd051-db3a-44d9-a7c4-35c85580685a",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "uniqueName": "william.sarzalejo@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/f50cd051-db3a-44d9-a7c4-35c85580685a"
+    },
+    "Microsoft.VSTS.Common.ActivatedDate": "2025-12-10T20:56:07.403Z",
+    "Microsoft.VSTS.Common.BacklogPriority": 1968810460.0,
+    "Microsoft.VSTS.Common.Priority": 4,
+    "Microsoft.VSTS.Common.Severity": "3 - Medium",
+    "Microsoft.VSTS.Common.StateChangeDate": "2025-12-10T20:56:07.403Z",
+    "Microsoft.VSTS.Common.ValueArea": "Business",
+    "Microsoft.VSTS.Scheduling.Effort": 2.0,
+    "Microsoft.VSTS.TCM.ReproSteps": "<b><u><br><br>Copied from Description when changed from Product Backlog Item to Bug</u></b><br><div>When planned tasks are merged with it's associated files, the orientation of images are aligned to the bottom left of the page. </div><div><br> </div><div><img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/fba28ed9-af01-4b85-aad5-7554cb164ca6?fileName=image.png\" alt=Image><br> </div>",
+    "System.AreaId": 45951,
+    "System.AreaLevel1": "PPM",
+    "System.AreaLevel2": "_Aha-HexagonALI",
+    "System.AreaLevel3": "Project Planning and Execution",
+    "System.AreaLevel4": "Smart Completions",
+    "System.AreaLevel5": "SaaS",
+    "System.AreaLevel6": "Handover Packages",
+    "System.AreaPath": "PPM\\_Aha-HexagonALI\\Project Planning and Execution\\Smart Completions\\SaaS\\Handover Packages",
+    "System.AssignedTo": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk"
+        }
+      },
+      "descriptor": "aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "displayName": "SARZALEJO Williams A",
+      "id": "f50cd051-db3a-44d9-a7c4-35c85580685a",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "uniqueName": "william.sarzalejo@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/f50cd051-db3a-44d9-a7c4-35c85580685a"
+    },
+    "System.AuthorizedAs": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew"
+        }
+      },
+      "descriptor": "aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "displayName": "svc-aliazdo",
+      "id": "d0563e5d-82ab-6bad-8d15-16297fab4ca0",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "uniqueName": "svc-aliazdo@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/d0563e5d-82ab-6bad-8d15-16297fab4ca0"
+    },
+    "System.AuthorizedDate": "2026-01-06T22:36:48.22Z",
+    "System.BoardColumnDone": false,
+    "System.ChangedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew"
+        }
+      },
+      "descriptor": "aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "displayName": "svc-aliazdo",
+      "id": "d0563e5d-82ab-6bad-8d15-16297fab4ca0",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "uniqueName": "svc-aliazdo@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/d0563e5d-82ab-6bad-8d15-16297fab4ca0"
+    },
+    "System.ChangedDate": "2026-01-06T22:36:48.22Z",
+    "System.CommentCount": 4,
+    "System.CreatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.NzA3ZmIyZDgtOWRkNy03N2VmLWE1NDAtMWZiODdjYmZkNDU1"
+        }
+      },
+      "descriptor": "aad.NzA3ZmIyZDgtOWRkNy03N2VmLWE1NDAtMWZiODdjYmZkNDU1",
+      "displayName": "A Sai Nadha R",
+      "id": "707fb2d8-9dd7-67ef-a540-1fb87cbfd455",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.NzA3ZmIyZDgtOWRkNy03N2VmLWE1NDAtMWZiODdjYmZkNDU1",
+      "uniqueName": "sai.nadha.a@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/707fb2d8-9dd7-67ef-a540-1fb87cbfd455"
+    },
+    "System.CreatedDate": "2025-11-03T05:30:24.103Z",
+    "System.Description": "<div>When planned tasks are merged with it's associated files, the orientation of images are aligned to the bottom left of the page. </div><div><br> </div><div><img src=\"https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/fba28ed9-af01-4b85-aad5-7554cb164ca6?fileName=image.png\" alt=Image><br> </div>",
+    "System.Id": 5194599,
+    "System.IterationId": 48785,
+    "System.IterationLevel1": "PPM",
+    "System.IterationLevel2": "Continuum Edge",
+    "System.IterationLevel3": "2026",
+    "System.IterationLevel4": "2026_01",
+    "System.IterationPath": "PPM\\Continuum Edge\\2026\\2026_01",
+    "System.NodeName": "Handover Packages",
+    "System.PersonId": 3243614,
+    "System.Reason": "Moved to state In Development",
+    "System.Rev": 44,
+    "System.RevisedDate": "9999-01-01T00:00:00Z",
+    "System.State": "In Development",
+    "System.Tags": "Critical for U9",
+    "System.TeamProject": "PPM",
+    "System.Title": "Task packages and TOP compilation - Properly align images (attachments) converted to PDF",
+    "System.Watermark": 42450830,
+    "System.WorkItemType": "Bug",
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_Kanban.Column.Done": false,
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_System.ExtensionMarker": true,
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_Kanban.Column": "New",
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_Kanban.Column.Done": false,
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_System.ExtensionMarker": false,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_Kanban.Column.Done": false,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_System.ExtensionMarker": true
+  },
+  "id": 5194599,
+  "multilineFieldsFormat": {
+    "Custom.DeveloperNotes": "html",
+    "Custom.ExpectedResults": "html",
+    "Custom.Impact": "html",
+    "Custom.StepstoReproduce": "html",
+    "Custom.Workaround": "html",
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "html",
+    "Microsoft.VSTS.TCM.ReproSteps": "html",
+    "System.Description": "html"
+  },
+  "relations": [
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5222971"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228885"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228887"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5240604"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228884"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228889"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228886"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Tested By"
+      },
+      "rel": "Microsoft.VSTS.Common.TestedBy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5240665"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228888"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228883"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5228890"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-10T21:07:18.597Z",
+        "id": 2056972,
+        "name": "Pull Request",
+        "resourceCreatedDate": "2025-12-10T21:07:18.597Z",
+        "resourceModifiedDate": "2025-12-10T21:07:18.597Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "ArtifactLink",
+      "url": "vstfs:///Git/PullRequestId/ad8b5582-3a1b-45b4-b53f-df3e968b9505%2F91bb98d2-76d5-4c45-a05e-76d5a35f2d02%2F58523"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-19T00:10:12.417Z",
+        "id": 2067299,
+        "name": "97529290-aa6f-40b0-b2e7-e0837d4e00ff.png",
+        "resourceCreatedDate": "2025-12-19T00:03:40.353Z",
+        "resourceModifiedDate": "2025-12-19T00:03:40.353Z",
+        "resourceSize": 38553,
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "AttachedFile",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/24782d80-48a2-48cd-a7b2-845ed32a3804"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-10T21:03:14.717Z",
+        "id": 2056970,
+        "name": "Pull Request",
+        "resourceCreatedDate": "2025-12-10T21:03:14.717Z",
+        "resourceModifiedDate": "2025-12-10T21:03:14.717Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "ArtifactLink",
+      "url": "vstfs:///Git/PullRequestId/ad8b5582-3a1b-45b4-b53f-df3e968b9505%2Fdb4c666f-2c28-40dd-9304-e38aa74cc9df%2F58522"
+    }
+  ],
+  "rev": 44,
+  "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5194599"
+}

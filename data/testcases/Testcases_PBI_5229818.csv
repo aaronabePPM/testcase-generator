@@ -1,0 +1,52 @@
+Work Item Type,Title,Test Step,Step Action,Step Expected,COS Reference
+Test Case,FUNC-01: Verify SSM Module Layout,,,,COS 1
+, ,1,Open the SSM module UI,SSM module UI loads successfully with described layout,
+, ,2,Verify presence of Search Panel,Search Panel is visible and matches the requirements,
+, ,3,Verify presence of Primary SSM workspace,Primary SSM workspace is visible with no secondary panels,
+, ,4,Verify presence of SSM Action Buttons,SSM Action Buttons are visible and match the requirements,
+Test Case,FUNC-02: Verify SSM Checkbox List Selection,,,,COS 2
+, ,1,Open the SSM module UI,SSM module UI loads successfully,
+, ,2,Select one SSM from the checkbox list,Checkbox list allows selection of one SSM,
+, ,3,Select multiple SSMs from the checkbox list,Checkbox list allows selection of multiple SSMs,
+, ,4,Ensure LOAD button is enabled when SSMs are selected,LOAD button becomes enabled only when one or more SSMs are selected,
+Test Case,FUNC-03: Verify Standard Action Buttons,,,,COS 4
+, ,1,Open the SSM module UI,SSM module UI loads successfully,
+, ,2,Verify presence of Create button,Create button is visible and functional,
+, ,3,Verify presence of Edit button,Edit button is visible and functional,
+, ,4,Verify presence of Delete button,Delete button is visible and functional,
+, ,5,Verify presence of Purge/Restore button,Purge/Restore button is visible and functional,
+Test Case,FUNC-04: Verify Import and Export Buttons,,,,COS 5
+, ,1,Verify presence of IMPORT button,IMPORT button is visible and functional,
+, ,2,Click IMPORT button and verify options,IMPORT button displays options for SSM List and SSM Hierarchy,
+, ,3,Verify presence of EXPORT button,EXPORT button is visible and functional,
+, ,4,Click EXPORT button and verify options,EXPORT button displays options for SSM List and SSM Hierarchy,
+Test Case,FUNC-05: Verify SSM Hierarchy Load,,,,COS 6
+, ,1,Select an SSM from the checkbox list,Selected SSM is highlighted in the checkbox list,
+, ,2,Click LOAD button,SSM hierarchy loads successfully without iconology or status information,
+, ,3,Verify record hyperlinks in SSM hierarchy,Record hyperlinks are visible and functional,
+Test Case,VAL-01: Search Panel Field Validations,,,,COS 3
+, ,1,Enter valid data in all Search Panel fields,Search Panel accepts valid data without errors,
+, ,2,Leave a required field empty,UI displays error message indicating the field is required,
+, ,3,Enter invalid data in dropdown fields,Dropdowns reject invalid data and display validation errors,
+, ,4,Verify date range fields validation,Date range fields accept only valid date range inputs,
+Test Case,UI-01: Verify SSM Module UI Layout,,,,COS 1
+, ,1,Open the SSM module UI,SSM module UI layout matches the described requirements,
+, ,2,Inspect labels and field positions,Labels and fields are positioned logically and follow the design,
+, ,3,Verify tab order and keyboard navigation,Tab order is logical and keyboard navigation works smoothly,
+Test Case,UI-02: Verify Import/Export UI Options,,,,COS 5
+, ,1,Click IMPORT button,IMPORT button opens a UI with two options: SSM List and SSM Hierarchy,
+, ,2,Click EXPORT button,EXPORT button opens a UI with two options: SSM List and SSM Hierarchy,
+, ,3,Verify options are selectable,Options are selectable and maintain expected behavior,
+Test Case,NEG-01: LOAD Button Behavior Without Selection,,,,COS 2
+, ,1,Open the SSM module UI,SSM module UI loads successfully,
+, ,2,Do not select any SSM in the checkbox list,LOAD button remains disabled until an SSM is selected,
+Test Case,NEG-02: Invalid Import File Format,,,,COS 5
+, ,1,Click IMPORT button and select invalid file format,UI rejects the file and displays validation error message,
+, ,2,Attempt to import invalid file,Import fails with error message indicating invalid format,
+Test Case,REG-01: Verify Existing SSM Module Features,,,,COS 1
+, ,1,Test existing features of the SSM module,Existing features work as expected without regressions,
+, ,2,Verify integration with new module layout,New module layout integrates seamlessly with existing features,
+Test Case,FUNC-06: Verify LOAD Button Displays SSM Hierarchy with Only Record Hyperlink,,,,COS 7
+, ,1,Select an SSM from the checkbox list,Selected SSM is highlighted in the checkbox list,
+, ,2,Click the LOAD button,SSM hierarchy loads successfully displaying only the record hyperlink without any iconology or status information,COS 7
+, ,3,Verify absence of iconology and status information in the hierarchy,Iconology and status information are not displayed in the SSM hierarchy,COS 7

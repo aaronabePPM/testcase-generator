@@ -1,0 +1,37 @@
+Given an Azure DevOps work item ID, do the following steps and produce a CSV of manual test cases that can be imported using the provided template.
+
+Prerequisites:
+Check if Azure CLI is installed. If not installed, install Azure CLI before proceeding with the export command.
+
+Export the work item JSON (PowerShell):
+Run this command in PowerShell (replace <AZDO_ID> with the work item number). Do NOT include a Project argument.
+Use the current workspace folder for all file operations.
+az boards work-item show --id <AZDO_ID> --organization "https://dev.azure.com/hexagonPPMCOL" --output json > "PBI-<AZDO_ID>.json"
+
+Example (for ID 5152532):
+az boards work-item show --id 5152532 --organization "https://dev.azure.com/hexagonPPMCOL" --output json > "PBI-5152532.json"
+
+Create the test cases CSV:
+Read the JSON file exported above from PBI-<AZDO_ID>.json in the current workspace.
+Pay special attention to the DeveloperNotes field — it outlines the developer's work and must be covered by the test cases.
+Use the CSV file testcase_template.csv in the same folder as the authoritative template for header/column layout. The output must follow that exact header/column order and layout.
+Output file: Testcases_PBI_<AZDO_ID>.csv in the current workspace folder
+Constraints and formatting rules (strict):
+
+Do not include the Project argument in the az command.
+Do not add ID, Area Path, or State columns to the CSV.
+Test Case Titles must NOT contain the PBI/Bug number. Titles must start with the type prefix (examples): FUNC-XX, VAL-XX, UI-XX, NEG-XX, REG-XX — pick the right prefix per test.
+Keep Test Case rows and Test Step rows on separate lines: never put Test Case-level values (Work Item Type, Title, etc.) on the same row as step-level values.
+This is a CSV import: do not include commas anywhere inside any text fields. (Commas are CSV separators and will break import.)
+Ensure you create manual test cases covering Functional, Validation, UI, Negative, and Regression scenarios as applicable to the work described.
+Include clear preconditions, steps, and expected results for each step. Keep steps concise and avoid commas.
+Map each test case to the relevant features/requirements described in the JSON (use the fields: Title, Description, Acceptance Criteria, and DeveloperNotes).
+Create a reasonable number of test steps — enough to reproduce the scenario and verify success/failure.
+Use plain text only in the CSV (no markup). No extra lines before or after content.
+Deliverable:
+
+A CSV file Testcases_PBI_<AZDO_ID>.csv placed in the current workspace folder that follows testcase_template.csv exactly and contains the new test cases derived from the JSON file.
+Reminder:
+
+REMINDER: Never place Test Case values (Work Item Type or Title) on the same row as Test Step values — keep Test Case rows and Test Step rows on separate lines to avoid import/formatting errors.
+REMINDER: This is a CSV file, so do not include commas in any text fields.

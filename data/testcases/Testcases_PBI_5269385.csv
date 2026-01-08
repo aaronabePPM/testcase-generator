@@ -1,0 +1,25 @@
+Work Item Type,Title,Test Step,Step Action,Step Expected,COS Reference/Expected Results
+Test Case,FUNC-01: Cover Page Generation During Report Creation,,,,Cover page generated and included in the report when the option is checked
+, ,1,Open report generation UI,UI shows the cover page option
+, ,2,Select report type and content
+, ,3,Check the cover page option
+, ,4,Generate the report,Cover page is included in the generated report
+Test Case,FUNC-02: Cover Page Content Verification,,,,Cover page contains the correct content
+, ,1,Generate a report with a cover page
+, ,2,Verify the cover page content,Cover page content matches the expected content
+Test Case,NEG-01: Cover Page Not Generated When Option Not Checked,,,,Cover page is not generated when the option is not checked
+, ,1,Open report generation UI,UI shows the cover page option
+, ,2,Select report type and content
+, ,3,Uncheck the cover page option
+, ,4,Generate the report,Cover page is not included in the generated report
+Test Case,NEG-02: Error Handling When Cover Page Generation Fails,,,,Error message is displayed when cover page generation fails
+, ,1,Open report generation UI,UI shows the cover page option
+, ,2,Select report type and content
+, ,3,Check the cover page option
+, ,4,Simulate a failure in cover page generation,Error message is displayed
+Test Case,REG-01: Existing Report Generation Flow Not Broken,,,,Existing report generation flow is not affected by the cover page generation feature
+, ,1,Generate a report without a cover page
+, ,2,Verify the report content,Report content is correct and not affected by the cover page generation feature
+Test Case,REG-02: Cover Page Generation Does Not Affect Report Content,,,,Cover page generation does not affect the report content
+, ,1,Generate a report with a cover page
+, ,2,Verify the report content,Report content is correct and not affected by the cover page generation feature

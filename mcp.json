@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "azure": {
+        "url": "https://mcp.azure.com/"
+    }
+  }
+}

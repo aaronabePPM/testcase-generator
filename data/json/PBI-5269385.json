@@ -1,0 +1,148 @@
+{
+  "fields": {
+    "Custom.DefectAgainstNewFeature": "No",
+    "Custom.DeveloperNotes": "Analysis (RCA), Solution, Testing, Risk and Impact",
+    "Custom.ExpectedResults": "<div>Report should be generated with the cover page included when the cover page option is selected </div>",
+    "Custom.FiledVersion": "06.00.09.0076",
+    "Custom.Impact": "<div>Incomplete Report without Cover page </div>",
+    "Custom.IterationEndDate": "2026-01-23T00:00:00Z",
+    "Custom.IterationStartDate": "2025-12-26T00:00:00Z",
+    "Custom.Origin": "QA",
+    "Custom.Product": "Smart Completions",
+    "Custom.ReasonforTestingLevel": "None",
+    "Custom.Regression": "Yes",
+    "Custom.RegressionFrom": "6.0.8",
+    "Custom.RequiresEndUserDocumentation": "No",
+    "Custom.ScrumTeam": "Continuum Edge",
+    "Custom.StateandSubStateCode": 110,
+    "Custom.StepstoReproduce": "<ol><li>Navigate to any manager </li><li>Go to Reports section </li><li>Generate any report using cover page </li><li>Observe the generated report does not have cover page </li> </ol>",
+    "Custom.SubState": "New",
+    "Custom.SubStateChangedDate": "2026-01-07T07:34:24.223Z",
+    "Custom.TestingLevel": "None",
+    "Custom.TypeClassificationBug": "Defect",
+    "Custom.WorkAllocation": "Technical Debt",
+    "Custom.Workaround": "<div>No Work around </div>",
+    "Microsoft.VSTS.Common.Severity": "2 - High",
+    "Microsoft.VSTS.Common.StateChangeDate": "2026-01-07T09:01:33.633Z",
+    "Microsoft.VSTS.Common.ValueArea": "Business",
+    "System.AreaId": 45956,
+    "System.AreaLevel1": "PPM",
+    "System.AreaLevel2": "_Aha-HexagonALI",
+    "System.AreaLevel3": "Project Planning and Execution",
+    "System.AreaLevel4": "Smart Completions",
+    "System.AreaLevel5": "SaaS",
+    "System.AreaLevel6": "Reports",
+    "System.AreaPath": "PPM\\_Aha-HexagonALI\\Project Planning and Execution\\Smart Completions\\SaaS\\Reports",
+    "System.AssignedTo": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk"
+        }
+      },
+      "descriptor": "aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "displayName": "SARZALEJO Williams A",
+      "id": "f50cd051-db3a-44d9-a7c4-35c85580685a",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "uniqueName": "william.sarzalejo@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/f50cd051-db3a-44d9-a7c4-35c85580685a"
+    },
+    "System.AuthorizedAs": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew"
+        }
+      },
+      "descriptor": "aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "displayName": "svc-aliazdo",
+      "id": "d0563e5d-82ab-6bad-8d15-16297fab4ca0",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "uniqueName": "svc-aliazdo@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/d0563e5d-82ab-6bad-8d15-16297fab4ca0"
+    },
+    "System.AuthorizedDate": "2026-01-07T23:49:16.427Z",
+    "System.BoardColumn": "New",
+    "System.BoardColumnDone": false,
+    "System.ChangedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew"
+        }
+      },
+      "descriptor": "aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "displayName": "svc-aliazdo",
+      "id": "d0563e5d-82ab-6bad-8d15-16297fab4ca0",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZDA1NjNlNWQtODJhYi03YmFkLThkMTUtMTYyOTdmYWI0Y2Ew",
+      "uniqueName": "svc-aliazdo@ingrnet.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/d0563e5d-82ab-6bad-8d15-16297fab4ca0"
+    },
+    "System.ChangedDate": "2026-01-07T23:49:16.427Z",
+    "System.CommentCount": 2,
+    "System.CreatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.YjVkM2U0MWUtZGY3OS03MjM1LTk0NGItMDVkNTA1NmRjYzEw"
+        }
+      },
+      "descriptor": "aad.YjVkM2U0MWUtZGY3OS03MjM1LTk0NGItMDVkNTA1NmRjYzEw",
+      "displayName": "KUMAR Praveen",
+      "id": "b5d3e41e-df79-6235-944b-05d5056dcc10",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.YjVkM2U0MWUtZGY3OS03MjM1LTk0NGItMDVkNTA1NmRjYzEw",
+      "uniqueName": "praveen.kumar@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/b5d3e41e-df79-6235-944b-05d5056dcc10"
+    },
+    "System.CreatedDate": "2026-01-07T09:01:33.633Z",
+    "System.Description": "<div>When generating a report, even when the cover page option is checked, the cover page is not included in the report. </div>",
+    "System.Id": 5269385,
+    "System.IterationId": 48785,
+    "System.IterationLevel1": "PPM",
+    "System.IterationLevel2": "Continuum Edge",
+    "System.IterationLevel3": "2026",
+    "System.IterationLevel4": "2026_01",
+    "System.IterationPath": "PPM\\Continuum Edge\\2026\\2026_01",
+    "System.NodeName": "Reports",
+    "System.PersonId": 3243614,
+    "System.Reason": "New defect reported",
+    "System.Rev": 8,
+    "System.RevisedDate": "9999-01-01T00:00:00Z",
+    "System.State": "New",
+    "System.TeamProject": "PPM",
+    "System.Title": "Cover Page Fails to generate During Report generation",
+    "System.Watermark": 42475897,
+    "System.WorkItemType": "Bug",
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_Kanban.Column": "New",
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_Kanban.Column.Done": false,
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_System.ExtensionMarker": true,
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_Kanban.Column": "New",
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_Kanban.Column.Done": false,
+    "WEF_F03D0E140DB34AD5A28B8EB2C84C599F_System.ExtensionMarker": false,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_Kanban.Column": "New",
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_Kanban.Column.Done": false,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_System.ExtensionMarker": true
+  },
+  "id": 5269385,
+  "multilineFieldsFormat": {
+    "Custom.DeveloperNotes": "html",
+    "Custom.ExpectedResults": "html",
+    "Custom.Impact": "html",
+    "Custom.StepstoReproduce": "html",
+    "Custom.Workaround": "html",
+    "System.Description": "html"
+  },
+  "relations": [
+    {
+      "attributes": {
+        "authorizedDate": "2026-01-07T09:01:33.633Z",
+        "id": 2079226,
+        "name": "Reports Cover Page.mp4",
+        "resourceCreatedDate": "2026-01-07T08:30:45.417Z",
+        "resourceModifiedDate": "2026-01-07T08:30:45.417Z",
+        "resourceSize": 5649457,
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "AttachedFile",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/attachments/e71169f4-f064-4d97-9622-1ecf99325aee"
+    }
+  ],
+  "rev": 8,
+  "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5269385"
+}

@@ -1,0 +1,21 @@
+Work Item Type,Title,Test Step,Step Action,Step Expected,COS Reference
+Test Case,FUNC-01: Verify Custom Workflow Alignment,,,,COS 1
+, ,1,Create a custom workflow with Reject and Revoke states in Punchlists manager,The custom workflow is successfully created,
+, ,2,Submit the workflow and verify it moves to the correct state,The workflow moves to the Origin state,
+, ,3,Revoke the workflow and verify it moves to the correct state,The workflow moves to the Origin state,
+Test Case,FUNC-02: Verify Workflow Status Update,,,,COS 1
+, ,1,Create a custom workflow with multiple states in Punchlists manager,The custom workflow is successfully created,
+, ,2,Update the workflow status and verify it reflects the correct state,The workflow status is updated correctly,
+, ,3,Verify the next user can update the status,The next user can update the status,
+Test Case,VAL-01: Validate Workflow Data,,,,COS 2
+, ,1,Create a custom workflow with missing data in Punchlists manager,An error message is displayed indicating missing data,
+, ,2,Verify the workflow cannot be submitted with missing data,The workflow cannot be submitted,
+Test Case,UI-01: Verify Workflow UI Alignment,,,,COS 3
+, ,1,Create a custom workflow in Punchlists manager and verify the UI alignment,The workflow UI is correctly aligned,
+, ,2,Verify the workflow states are displayed correctly,The workflow states are displayed correctly,
+Test Case,NEG-01: Verify Workflow Error Handling,,,,COS 4
+, ,1,Create a custom workflow with incorrect data in Punchlists manager,An error message is displayed indicating incorrect data,
+, ,2,Verify the workflow cannot be submitted with incorrect data,The workflow cannot be submitted,
+Test Case,REG-01: Verify Workflow Regression,,,,COS 5
+, ,1,Create a custom workflow in Punchlists manager and verify it functions correctly,The custom workflow functions correctly,
+, ,2,Update the workflow and verify it still functions correctly,The workflow still functions correctly after the update,

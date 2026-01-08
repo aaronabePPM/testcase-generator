@@ -1,0 +1,26 @@
+Work Item Type,Title,Test Step,Step Action,Step Expected,COS Reference/Expected Results
+Test Case,FUNC-01: Completed Task Exception Visibility,,,, Task exception visibility under Certificate Dependencies
+, ,1.0,Create a certificate with a dependent task sss,Task and dependencies created successfully,
+, ,2.0,Complete the dependent task,Task status updated to completed,
+, ,3.0,Mark the completed task as an exception,Task marked as an exception,
+, ,4.0,Open the Certificate Dependencies tab,Exception count is accurate; marked task appears in Task Exceptions list,
+Test Case,FUNC-02: Certificate Completion with Exceptions,,,, Certificate completion and exception count accuracy
+, ,1.0,Complete a certificate with a task marked as an exception,Certificate status updated to completed,
+, ,2.0,Verify the exception count in the Dependencies tab,Exception count reflects the task marked as an exception,
+, ,3.0,Open the Task Exceptions list,Task marked as an exception appears in the list,
+Test Case,VAL-01: Task Exception Validation,,,, Task exception validation on certificate completion
+, ,1.0,Complete a certificate with a task not marked as an exception,Certificate status updated to completed,
+, ,2.0,Verify the exception count in the Dependencies tab,Exception count is accurate,
+, ,3.0,Open the Task Exceptions list,Task not marked as an exception does not appear in the list,
+Test Case,NEG-01: No Task Exceptions,,,, No task exceptions handling in Certificate Dependencies
+, ,1.0,Create a certificate with no tasks marked as exceptions,Certificate created successfully,
+, ,2.0,Open the Certificate Dependencies tab,Exception count is zero; no tasks in Task Exceptions list,
+Test Case,NEG-02: Invalid Task Exception Status,,,, Invalid task exception status handling
+, ,1.0,Create a certificate with a task having an invalid exception status,Certificate creation fails or task status is corrected,
+, ,2.0,Verify the task status and exception count,Task status is corrected or exception count ignores invalid status,
+Test Case,REG-01: Existing Certificate Completion Flow,,,, Existing certificate completion flow remains unchanged
+, ,1.0,Complete a certificate without task exceptions,Certificate completion flow behaves as before,
+, ,2.0,Verify the certificate status and dependencies,Certificate status and dependencies are accurate,
+Test Case,REG-02: Task Exception List Behavior,,,, Task exception list behaves as expected
+, ,1.0,Open the Task Exceptions list for a completed certificate,Task exception list displays tasks marked as exceptions,
+, ,2.0,Verify the tasks in the list,Tasks marked as exceptions appear in the list,

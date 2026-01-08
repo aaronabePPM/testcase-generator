@@ -1,0 +1,327 @@
+{
+  "fields": {
+    "Custom.AhaID": "SMARTC-815-8",
+    "Custom.AhaPlanningSequence": 3,
+    "Custom.DeliveryMechanism": "Both",
+    "Custom.EffortLastModified": "2025-10-30T21:23:52.883Z",
+    "Custom.IterationEndDate": "2026-01-23T00:00:00Z",
+    "Custom.IterationStartDate": "2025-12-26T00:00:00Z",
+    "Custom.Origin": "QA",
+    "Custom.PlannedReleaseDate": "2026-02-19",
+    "Custom.Product": "Smart Completions",
+    "Custom.Release": "SC FU 9 (v6.0.9)",
+    "Custom.RemainingEffort": 5.0,
+    "Custom.RequiresEndUserDocumentation": "Yes",
+    "Custom.RequiresEndUserValidationTesting": "Not Evaluated",
+    "Custom.RollupofCompletedWork": 0.0,
+    "Custom.RollupofRemainingWork": 0.0,
+    "Custom.ScrumTeam": "Continuum Edge",
+    "Custom.StateandSubStateCode": 310,
+    "Custom.SubState": "Ready to Develop",
+    "Custom.TypeClassificationPBI": "Development Activity",
+    "Custom.WorkAllocation": "New Features",
+    "Custom.WorkDone": 0.0,
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "<div>--Full testing of all Predecessor PBIs should be completed in the Merge branch. </div><div>--Full Backward Compatibility and Impact testing should be completed in the Merge branch </div><div>--Any issues found during testing should be filed as an ISSUE task on this story, to be fixed by development, and verified by QA in the Merge branch. </div><div>--Any issues found that are deemed not necessary to fix as part of Iteration 1 should have a separate Bug filed. </div><div>--After approval, changes are merged into Master, and full testing is completed in the Master branch to verify the merge is good. </div><div>--Documentation changes are completed </div><div>--Update the build number for all predecessor items </div><div>--All existing UAT Test cases should be updated based on the changes to Project Activities </div><div>--All existing SSM Test cases should be run, and cleaned up if anything has changed since original implementation </div><div><br> </div>",
+    "Microsoft.VSTS.Common.BacklogPriority": 74653.0,
+    "Microsoft.VSTS.Common.Priority": 4,
+    "Microsoft.VSTS.Common.StateChangeDate": "2025-12-01T23:59:44.813Z",
+    "Microsoft.VSTS.Common.ValueArea": "Business",
+    "Microsoft.VSTS.Scheduling.Effort": 5.0,
+    "System.AreaId": 39700,
+    "System.AreaLevel1": "PPM",
+    "System.AreaLevel2": "_Aha-HexagonALI",
+    "System.AreaLevel3": "Project Planning and Execution",
+    "System.AreaLevel4": "Smart Completions",
+    "System.AreaPath": "PPM\\_Aha-HexagonALI\\Project Planning and Execution\\Smart Completions",
+    "System.AssignedTo": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk"
+        }
+      },
+      "descriptor": "aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "displayName": "SARZALEJO Williams A",
+      "id": "f50cd051-db3a-44d9-a7c4-35c85580685a",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.ZGJhNzgzMzUtNmE4My03NGEwLWE1OTEtODhkZmUyMjlkMDBk",
+      "uniqueName": "william.sarzalejo@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/f50cd051-db3a-44d9-a7c4-35c85580685a"
+    },
+    "System.AuthorizedAs": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.MmIxYjkwNTQtYjI2OC03YWEyLTgwYzMtZTgyMWM3Y2Y3ZTNj"
+        }
+      },
+      "descriptor": "aad.MmIxYjkwNTQtYjI2OC03YWEyLTgwYzMtZTgyMWM3Y2Y3ZTNj",
+      "displayName": "HODGSON Ryan J",
+      "id": "060c584d-a250-45a1-9516-72fbe110b423",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.MmIxYjkwNTQtYjI2OC03YWEyLTgwYzMtZTgyMWM3Y2Y3ZTNj",
+      "uniqueName": "ryan.hodgson@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/060c584d-a250-45a1-9516-72fbe110b423"
+    },
+    "System.AuthorizedDate": "2026-01-06T21:00:54.21Z",
+    "System.BoardColumnDone": false,
+    "System.ChangedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.MmIxYjkwNTQtYjI2OC03YWEyLTgwYzMtZTgyMWM3Y2Y3ZTNj"
+        }
+      },
+      "descriptor": "aad.MmIxYjkwNTQtYjI2OC03YWEyLTgwYzMtZTgyMWM3Y2Y3ZTNj",
+      "displayName": "HODGSON Ryan J",
+      "id": "060c584d-a250-45a1-9516-72fbe110b423",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.MmIxYjkwNTQtYjI2OC03YWEyLTgwYzMtZTgyMWM3Y2Y3ZTNj",
+      "uniqueName": "ryan.hodgson@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/060c584d-a250-45a1-9516-72fbe110b423"
+    },
+    "System.ChangedDate": "2026-01-06T21:00:54.21Z",
+    "System.CommentCount": 0,
+    "System.CreatedBy": {
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.MDk3M2RjMDQtMjk5YS03MTQwLTlhYTAtYmU3NTM4MjZhODVk"
+        }
+      },
+      "descriptor": "aad.MDk3M2RjMDQtMjk5YS03MTQwLTlhYTAtYmU3NTM4MjZhODVk",
+      "displayName": "ABERLE Aaron J",
+      "id": "8e4f910a-c170-477a-a456-b6e170c875e6",
+      "imageUrl": "https://dev.azure.com/hexagonPPMCOL/_apis/GraphProfile/MemberAvatars/aad.MDk3M2RjMDQtMjk5YS03MTQwLTlhYTAtYmU3NTM4MjZhODVk",
+      "uniqueName": "aaron.aberle@hexagon.com",
+      "url": "https://spsprodcus2.vssps.visualstudio.com/A9dc3251e-8ad5-4d48-b615-3b987cac766d/_apis/Identities/8e4f910a-c170-477a-a456-b6e170c875e6"
+    },
+    "System.CreatedDate": "2025-10-27T16:34:38.057Z",
+    "System.Description": "<div>This story is to merge each of the related SSM related predecessor stories into Master for Iteration 1 of the SSM project. This item cannot be started until all predecessor stories have been closed. </div><div><br> </div><div>As part of this story, QA will do full testing of the SSM module in the Feature branch covering test scenarios for each predecessor Feature implemented, as well as Impact testing and Backward Compatibility testing. </div><div><br> </div><div>Once testing is complete, CCB approval will be required to merge into Master as part of this story. </div><div><br> </div><div>Then, QA will do another round of testing in Master, before this story is closed. </div><div><br> </div><div>(Refer to this documentation for SDx for understanding <a href=\"https://dev.azure.com/hexagonppm/SDX/_wiki/wikis/SDX.wiki/23747/Managing-long-running-feature-branches\">https://dev.azure.com/hexagonppm/SDX/_wiki/wikis/SDX.wiki/23747/Managing-long-running-feature-branches</a>) </div>",
+    "System.Id": 5180124,
+    "System.IterationId": 48785,
+    "System.IterationLevel1": "PPM",
+    "System.IterationLevel2": "Continuum Edge",
+    "System.IterationLevel3": "2026",
+    "System.IterationLevel4": "2026_01",
+    "System.IterationPath": "PPM\\Continuum Edge\\2026\\2026_01",
+    "System.NodeName": "Smart Completions",
+    "System.Parent": 4170055,
+    "System.PersonId": 68462,
+    "System.Reason": "Moved out of state In Design",
+    "System.Rev": 25,
+    "System.RevisedDate": "9999-01-01T00:00:00Z",
+    "System.State": "Ready to Develop",
+    "System.Tags": "Critical for U9",
+    "System.TeamProject": "PPM",
+    "System.Title": "**Merge PBI** SSM Iteration 1 Merge",
+    "System.Watermark": 42449957,
+    "System.WorkItemType": "Product Backlog Item",
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_Kanban.Column.Done": false,
+    "WEF_8A9FACDDBB354DC4B44E9DBD34216180_System.ExtensionMarker": true,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_Kanban.Column.Done": false,
+    "WEF_F94B60073DF84B9F8260331FBA30AC5D_System.ExtensionMarker": true
+  },
+  "id": 5180124,
+  "multilineFieldsFormat": {
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "html",
+    "System.Description": "html"
+  },
+  "relations": [
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5147519"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5264459"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/4175795"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5180688"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5105699"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5147518"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5264460"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5145682"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5186627"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5176892"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5264455"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5152532"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5105688"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5264474"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5264476"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Predecessor"
+      },
+      "rel": "System.LinkTypes.Dependency-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5105687"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5264454"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Child"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Forward",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5264456"
+    },
+    {
+      "attributes": {
+        "isLocked": false,
+        "name": "Parent"
+      },
+      "rel": "System.LinkTypes.Hierarchy-Reverse",
+      "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/4170055"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-08T15:13:58.99Z",
+        "id": 2053489,
+        "name": "Pull Request",
+        "resourceCreatedDate": "2025-12-08T15:13:58.99Z",
+        "resourceModifiedDate": "2025-12-08T15:13:58.99Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "ArtifactLink",
+      "url": "vstfs:///Git/PullRequestId/ad8b5582-3a1b-45b4-b53f-df3e968b9505%2F91bb98d2-76d5-4c45-a05e-76d5a35f2d02%2F58298"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2026-01-06T21:00:54.21Z",
+        "id": 2078664,
+        "name": "Pull Request",
+        "resourceCreatedDate": "2026-01-06T21:00:54.21Z",
+        "resourceModifiedDate": "2026-01-06T21:00:54.21Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "ArtifactLink",
+      "url": "vstfs:///Git/PullRequestId/ad8b5582-3a1b-45b4-b53f-df3e968b9505%2F91bb98d2-76d5-4c45-a05e-76d5a35f2d02%2F59560"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-10-30T20:34:29.243Z",
+        "comment": "Aha!",
+        "id": 2015416,
+        "resourceCreatedDate": "2025-10-30T20:34:29.243Z",
+        "resourceModifiedDate": "2025-10-30T20:34:29.243Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "Hyperlink",
+      "url": "https://hexagonppm.aha.io/requirements/SMARTC-815-8"
+    },
+    {
+      "attributes": {
+        "authorizedDate": "2025-12-08T15:11:13.51Z",
+        "id": 2053485,
+        "name": "Pull Request",
+        "resourceCreatedDate": "2025-12-08T15:11:13.51Z",
+        "resourceModifiedDate": "2025-12-08T15:11:13.51Z",
+        "revisedDate": "9999-01-01T00:00:00Z"
+      },
+      "rel": "ArtifactLink",
+      "url": "vstfs:///Git/PullRequestId/ad8b5582-3a1b-45b4-b53f-df3e968b9505%2F51d26b3d-9ba3-4ea6-b995-ae590428946d%2F58297"
+    }
+  ],
+  "rev": 25,
+  "url": "https://dev.azure.com/hexagonPPMCOL/ad8b5582-3a1b-45b4-b53f-df3e968b9505/_apis/wit/workItems/5180124"
+}
